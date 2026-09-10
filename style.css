@@ -156,7 +156,7 @@ nav a {
      font-size: 14px;
     color:#ddd;
     display: block;
-    margin-bottom: 15p
+    margin-bottom: 15px;
 }
 .contentcard h2{
      font-size: 20px;
@@ -173,4 +173,145 @@ nav a {
 .card{
     position: relative;
     overflow: hidden;
+}
+.casecard {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+.casecard .heroimg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.casecontent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px;
+    z-index: 2;
+    background: linear-gradient(
+        rgba(10, 25, 35, 0.9),
+        transparent
+    );
+}
+
+.casecontent small {
+    font-size: 14px;
+    color: #ddd;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.casecontent h2 {
+    font-size: 20px;
+    line-height: 1.5;
+    color: white;
+}
+
+.casebutton {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 2;
+    background-color: white;
+    padding: 12px 20px;
+}
+
+.casebutton p {
+    margin: 0;
+    color: #0d2433;
+    font-size: 14px;
+}
+.extra-section {
+    margin-top: 0;
+    padding: 20px;
+    background-color: #294250;
+    grid-column: 3;
+    grid-row: 2;
+    height: 100%;
+}
+
+.data {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.data p {
+    font-size: 30px;
+    line-height: 1.4;
+    margin-bottom: 25px;
+}
+
+.email-box {
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+
+.email-box input {
+    width: 90%;
+    height: 65px;
+    padding: 15px;
+    border: none;
+    font-size: 17px;
+}
+
+.email-box button {
+    width: 70px;
+    height: 65px;
+    border: none;
+    background-color: #08a5e5;
+    color: white;
+    font-size: 30px;
+}
+
+.lines {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 70%;
+    margin: 30px auto;
+}
+
+.lines span:first-child,
+.lines span:last-child {
+    width: 35%;
+    height: 2px;
+    background-color: white;
+}
+
+.lines span:nth-child(2) {
+    font-size: 18px;
+    white-space: nowrap;
+}
+
+.apple {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.apple span {
+    width: 170px;
+    height: 60px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 19px;
+}
+
+.apple img {
+    width: 23px;
+    height: 23px;
+}
+ .casecard, .extra-section {
+    display: flex;
+    flex-direction: column;
 }
