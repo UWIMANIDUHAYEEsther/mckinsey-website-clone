@@ -227,12 +227,9 @@ nav a {
     font-size: 14px;
 }
 .extra-section {
-    margin-top: 0;
-    padding: 20px;
+    margin-top: 60px;
+    padding: 60px 0;
     background-color: #294250;
-    grid-column: 3;
-    grid-row: 2;
-    height: 100%;
 }
 
 .data {
@@ -311,7 +308,13 @@ nav a {
     width: 23px;
     height: 23px;
 }
- .casecard, .extra-section {
-    display: flex;
+ .hero-grid.casecard,.extra-section{
+    display:flex;
     flex-direction: column;
+
+}
+.extra-section,
+.extra-section p,
+.extra-section span {
+    color: white;
 }
