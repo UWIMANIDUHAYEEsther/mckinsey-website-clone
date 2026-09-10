@@ -97,3 +97,61 @@ nav a {
 .brilliant{
     color: white;
 }
+
+.container {
+    width: 80%;
+    margin:50px auto;
+}
+.hero-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:700px;
+    margin-bottom: 50px;
+}
+.hero-content h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 65px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+.hero-content p{
+    width: 570px;
+    color: #c2c7ca;
+    font-size: 17px;
+    line-height: 1.6;
+}
+.hero-grid{
+      display: grid;
+    grid-template-columns: 1fr 1fr 1.5fr;
+    gap:14px;
+    height: 570px;
+}
+.contentcard{
+     position:absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background: linear-gradient(transparent,rgba(10,25,35,0.9));
+}
+.contentcard small{
+     font-size: 14px;
+    color:#ddd;
+    display: block;
+    margin-bottom: 15p
+}
+.contentcard h2{
+     font-size: 20px;
+    line-height: 1.5;
+    color: white;
+}
+.heroimg{
+     height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.card{
+    position: relative;
+    overflow: hidden;
+}
